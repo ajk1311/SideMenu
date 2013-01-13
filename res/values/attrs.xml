@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SideMenuView">
+        <attr name="fadeMenu" format="boolean" />
+        <attr name="fadeContent" format="boolean" />
+        <attr name="keptThresholdPortrait" format="dimension" />
+        <attr name="keptPercentageLandscape" format="integer" />
+        <attr name="bezelSize" format="dimension" />
+        <attr name="slideActionBar" format="boolean" />
+        <attr name="direction">
+            <enum name="right" value="2" />
+            <enum name="left" value="3" />
+        </attr>
+        <attr name="speed" format="integer"/>
+    </declare-styleable>
+</resources>
